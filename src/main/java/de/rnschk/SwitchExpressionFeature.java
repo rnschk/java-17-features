@@ -34,6 +34,8 @@ public class SwitchExpressionFeature {
             case TEA, WATER -> System.out.println("Case: The british way");
             case JUICE, COKE -> System.out.println("Case: Sweet stuff");
             case BEER -> System.out.println("Case: Ceers!");
+            // Java 17 preview:
+            // case null -> System.out.println("Case: No drinks for NPE!");
             default -> System.out.println("Case: Not thirsty");
         }
 
